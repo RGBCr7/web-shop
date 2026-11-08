@@ -13,4 +13,6 @@ def find_by_name(products, text):
 # wip 2
 # A
 def add_tax(price, rate=0.2):
-return price * (1 + rate)
+    return price * (1 + rate)
+def add_tax(price, rate=0.2):
+    return price * (1 + rate)
