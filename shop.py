@@ -1,3 +1,6 @@
+from importlib.metadata import requires
+
+
 class Product:
     def __init__(self, sku, name, price):
         self.sku = sku
@@ -18,3 +21,10 @@ def add_tax(price, rate=0.2):
     return price * (1 + rate)
 def add_taxii(price, rate=0.2):
     return price * (1 + rate)
+class Product:    
+    def __init__(self, sku, name, price):        
+        if not sku:            
+            raise ValueError(sku is requires)        
+        self.sku = sku        
+        self.name = name        
+        self.price = price 
