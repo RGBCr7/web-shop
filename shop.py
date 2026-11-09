@@ -28,3 +28,4 @@ class Product:
         self.sku = sku        
         self.name = name        
         self.price = price 
+# edit or add sth to files
