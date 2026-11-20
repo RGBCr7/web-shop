@@ -9,5 +9,4 @@
 
 Install pytest with: pip install pytest
 Contact: shop@example.com
-Contact: shop@example.com
-Run the tests with: python -m pytest -q
+Run the testss withh: python -m pytest -q
