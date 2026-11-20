@@ -6,3 +6,4 @@
 #try three way
 
 # samelineeeeee
+Install pytest with: pip install pytest
