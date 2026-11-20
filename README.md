@@ -3,7 +3,8 @@
 # A small online shop written in Python
 
 #try three way
-#try three way
+
+# Run the tests with: python -m pytest -q
 
 # samelineeeeee
 
