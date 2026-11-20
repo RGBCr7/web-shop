@@ -7,3 +7,5 @@
 
 # samelineeeeee
 Install pytest with: pip install pytest
+Contact: shop@example.com
+Contact: shop@example.com
