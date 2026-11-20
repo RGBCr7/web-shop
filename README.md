@@ -2,7 +2,7 @@
 
 #try three way
 
-# add sth to readme
+# samelineeeeee-An online shop for learning Git
 
 # add txt
 
