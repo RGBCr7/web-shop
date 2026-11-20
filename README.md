@@ -6,6 +6,7 @@
 #try three way
 
 # samelineeeeee
-Install pytest with: pip install pytest
+
+Install pytest with: pippp install pytest
 Contact: shop@example.com
 Contact: shop@example.com
