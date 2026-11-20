@@ -15,13 +15,13 @@ def find_by_name(products, text):
 # wip 1
 # wip 2
 # A
-def add_tax(price, rate=0.09):
-    return price * (1 + rate)
+def add_tax(price, rate=0.15): 
+     return price * (1 + rate)
 class Product:    
     def __init__(self, sku, name, price):        
         if not sku:            
             raise ValueError(sku is requires)        
-        self.sku = sku        
+        self.sku = sku       
         self.name = name        
         self.price = price 
 # edit or add sth to files
