@@ -30,3 +30,12 @@ def apply_coupon(price):
 # change sth for 4th level
 def sort_by_price(products):    
     return sorted(products, key=lambda p: p.price)
+
+def in_stock(stock, sku):
+    return stock.get(sku, 0) > 0
+# test_stock.py
+from shop import in_stock
+stock = {"P001": 3, "P002": 0}
+assert in_stock(stock, "P001")
+assert not in_stock(stock, "P002")
+print("Stock test passed")
