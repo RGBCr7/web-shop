@@ -8,6 +8,6 @@
 
 # samelineeeeee
 
-Install pytest with: pippp install pytest
+Install pytest with: pip install pytest
 Contact: shop@example.com
-Contact: shop@example.com
+Run the testss withh: python -m pytest -q
