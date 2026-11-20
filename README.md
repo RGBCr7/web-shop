@@ -11,3 +11,4 @@
 Install pytest with: pip install pytest
 Contact: shop@example.com
 Run the testss withh: python -m pytest -q
+License: MIT
