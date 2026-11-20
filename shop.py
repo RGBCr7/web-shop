@@ -30,3 +30,6 @@ def apply_coupon(price):
 # change sth for 4th level
 def sort_by_price(products):    
     return sorted(products, key=lambda p: p.price)
+
+def in_stock(stock, sku):
+    return stock.get(sku, 0) > 0
