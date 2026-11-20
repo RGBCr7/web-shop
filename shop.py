@@ -28,3 +28,5 @@ class Product:
 def apply_coupon(price):
     return price - 5 
 # change sth for 4th level
+def sort_by_price(products):    
+    return sorted(products, key=lambda p: p.price)
