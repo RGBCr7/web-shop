@@ -15,11 +15,7 @@ def find_by_name(products, text):
 # wip 1
 # wip 2
 # A
-def add_tax(price, rate=0.2):
-    return price * (1 + rate)
-def add_tax(price, rate=0.2):
-    return price * (1 + rate)
-def add_taxii(price, rate=0.2):
+def add_tax(price, rate=0.09):
     return price * (1 + rate)
 class Product:    
     def __init__(self, sku, name, price):        
