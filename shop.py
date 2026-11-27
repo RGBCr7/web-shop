@@ -40,3 +40,6 @@ print("Stock test passed")
 
 def format_price(price):
     return f"{price:,} Toman"
+
+def list_names(products):
+    return [p.name for p in products]
