@@ -46,3 +46,7 @@ def list_names(products):
     return [p.name for p in products]
 
 # Next version: v1.2.0
+
+def apply_discount(price, percent):
+    percent = max(min(percent, 100), 0)
+    return price * (1 - percent / 100)
