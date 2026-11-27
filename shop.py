@@ -1,6 +1,4 @@
 from importlib.metadata import requires
-
-
 class Product:
     def __init__(self, sku, name, price):
         self.sku = sku
@@ -26,7 +24,7 @@ class Product:
         self.price = price 
 # edit or add sth to files
 def apply_coupon(price):
-    return price - 5 
+    return max(price - 5, 0)
 # change sth for 4th level
 def sort_by_price(products):    
     return sorted(products, key=lambda p: p.price)
