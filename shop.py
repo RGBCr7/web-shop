@@ -46,5 +46,12 @@ def list_names(products):
     return [p.name for p in products]
 
 # Next version: v1.2.0
+<<<<<<< HEAD
 def count_products(products):
     return len(products)
+=======
+
+def apply_discount(price, percent):
+    percent = max(min(percent, 100), 0)
+    return price * (1 - percent / 100)
+>>>>>>> cf4b7d9 (fix: limit discount to 0-100 percent)
