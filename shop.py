@@ -46,3 +46,5 @@ def list_names(products):
     return [p.name for p in products]
 
 # Next version: v1.2.0
+def count_products(products):
+    return len(products)
